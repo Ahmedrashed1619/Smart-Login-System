@@ -1,0 +1,65 @@
+
+:root{
+    --main-color:#17a2b8;
+    --second-color:#24353f;
+}
+body{
+    background-color: var(--second-color);
+    font-family: sans-serif;
+}
+.log{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    width: 65%;
+}
+h1 , h2 , h3{
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+}
+.log input , .log button , .alert{
+    width: 90% !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.log button:focus{
+    box-shadow:0 0 0 .1rem var(--main-color) !important;
+}
+.log button{
+    transition: all 0.5s;
+}
+.log button{
+    color: var(--main-color) !important;
+}
+.btn-outline-info{
+    border-color: var(--main-color) !important;
+}
+.log button:hover{
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+    color: #fff !important;
+}
+.log p a:hover{
+    text-decoration: underline !important;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.navbar ul li a{
+    transition: 0.5s;
+}
+.navbar ul li:hover a{
+    color: #fff !important;
+}
+.navbar .navbar-toggler{
+    color: #fff;
+    border: none;
+}
+.navbar button svg{
+    font-size: 2rem !important;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
