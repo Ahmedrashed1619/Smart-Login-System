@@ -171,7 +171,7 @@ function validUserName(){
 }
 
 function validUserEmail(){
-    var regexEmail = /^[a-zA-Z0-9_]{3,10}@gmail\.com$/;
+    let regexEmail = /^[a-zA-Z0-9_]{3,10}(@[a-zA-Z0-9]{3,15}\.com)$/;
     if(regexEmail.test(userEmailInput.value))
     {
         userEmailInput.classList.add('is-valid');
